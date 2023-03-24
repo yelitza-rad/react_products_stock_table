@@ -3,3 +3,22 @@ body {
   font-family: system-ui;
   color: white;
 }
+
+th {
+  border: 1px solid white;
+  padding: 5px 20px;
+}
+
+tr td:nth-child(2) {
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: unset;
+}
+
+td {
+  border-bottom: solid 0.5px white;
+  padding: 5px 0;
+}
