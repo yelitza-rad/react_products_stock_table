@@ -4,6 +4,12 @@ body {
   color: white;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 form, .filterableProductTable {
   display: flex;
   flex-direction: column;
